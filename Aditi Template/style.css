@@ -1,0 +1,176 @@
+#id_wrapper h3 {
+    color: rgb(23, 111, 111);
+}
+
+#id_wrapper .btn-border {
+    color: rgb(23, 111, 111);
+}
+
+#id_wrapper h3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: rgb(41, 170, 170);
+    margin-left: 25px;
+    font-size: 30px;
+
+}
+
+#id_wrapper .icon_wrapper {
+    color: rgb(17, 91, 91);
+    width: 3px;
+}
+
+#id_wrapper button {
+    display: none;
+}
+
+.nav_wrapper {
+    top: 0;
+    width: 100%;
+    min-height: auto;
+    background-color: rgb(23, 111, 111);
+    box-shadow: 5px 2px 5px 0 rgba(0, 0, 0, );
+    z-index: 2;
+    position: relative;
+}
+
+#banner {
+    background-color: rgb(41, 170, 170);
+    height: a;
+}
+
+#banner a {
+    background-color: rgb(41, 170, 170);
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#banner h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#banner a:hover {
+    background-color: #fff;
+    color: rgb(41, 170, 170);
+}
+
+#banner img {
+    margin-top: 16px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+/*.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}*/
+#owlcarousel_wrapper {
+    z-index: 0;
+}
+
+#owlcarousel_wrapper a {
+    background-color: rgb(41, 170, 170);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#owlcarousel_wrapper a:hover {
+    background-color: #fff;
+    color: rgb(41, 170, 170);
+}
+
+#Feature_wrapper {
+    background-color: rgb(41, 170, 170);
+    height: 50px;
+}
+
+#card_wrapper a {
+    background-color: rgb(41, 170, 170);
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+
+#card_wrapper a:hover {
+    background-color: #fff;
+    color: rgb(41, 170, 170);
+}
+
+#card_wrapper {
+    text-align: center;
+}
+
+#card_wrapper h4 a {
+    display: inline-block;
+}
+
+#footer_wrapper {
+    background-color: rgb(41, 170, 170);
+    color: #fff;
+}
+
+#footer_wrapper h5 {
+    text-transform: uppercase;
+}
+
+#footercontent_wrapper {
+    background-color: rgb(23, 111, 111);
+    color: #fff;
+}
+
+#footercontent_wrapper a {
+    color: #fff;
+
+}
+
+#footercontent_wrapper a.icon-links {
+    letter-spacing: 15px;
+}
+#hidenav_wrapper .navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: rgb(41, 170, 170);
+    font-size: 30px;
+
+}
+#hidenav_wrapper ul{
+    background-color: rgb(41, 170, 170);
+    text-align:left;
+    padding: 16px 32px;
+}
+#hidenav_wrapper ul a{
+    color: #fff;
+}
+#hidenav_wrapper{
+    display: none;
+    padding: 16px 32px;
+    background-color: ;
+}
+@media screen and (max-width:996px){
+    #id_wrapper{
+        display: none;
+    }
+    #nav{
+        display: none;
+    }
+    #hidenav_wrapper{
+        display: contents;
+    }
+}
+@media screen and (max-width:1200px){
+    #banner p{
+        display: none;
+    }
+}
+@media screen and (max-width:996px){
+    #card_wrapper{
+        align-content: center;
+    }
+}
+/*  */
